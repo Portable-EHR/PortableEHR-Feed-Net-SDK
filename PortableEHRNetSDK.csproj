@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageId>PortableEHR.Feed.SDK</PackageId>
+        <Authors>PortableEHR</Authors>
+        <Company>PortableEHR</Company>
+        <Description>.NET SDK to jump start the integration with Portable EHR FeedHub</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>PortableEHR, SDK, Feed, FeedHub, API</PackageTags>
+        <RepositoryUrl>https://github.com/Portable-EHR/PortableEHR-Feed-Net-SDK</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Test\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Test\**" />
+    </ItemGroup>
+
+</Project>
