@@ -7,8 +7,12 @@
         <Company>PortableEHR</Company>
         <Description>.NET SDK to jump start the integration with Portable EHR FeedHub</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>Copyright © Portable EHR inc, 2021</Copyright>
         <PackageTags>PortableEHR, SDK, Feed, FeedHub, API</PackageTags>
         <RepositoryUrl>https://github.com/Portable-EHR/PortableEHR-Net-Feed-SDK</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/Portable-EHR/PortableEHR-Net-Feed-SDK</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
